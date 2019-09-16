@@ -50,16 +50,23 @@ bool isSafe(int row, int col, int num)
 
 void printGrid()
 {
-    for (int i = 0; i < N; i++)
+    for(int i = 0; i < N; ++i)
     {
-        for (int j = 0; j < N; j++)
-        {
-            cout << GRID[i][j] << " ";
-        }
+        cout << "  ";
+        for(int j = 0; j < N; j++)
+            cout << "--- ";
+        cout << endl;
+        cout << " |";
+        for(int j = 0; j < N; ++j)
+            cout << " " << GRID[i][j] << " |";
         cout << endl;
     }
+    cout << "  ";
+    for(int j = 0; j < N; j++)
+        cout << "--- ";
     cout << endl;
 }
+
 
 bool SolveSudoku()
 {
@@ -86,7 +93,8 @@ bool SolveSudoku()
 
 int main()
 {
-    cout << "  SUDOKU SOLVER" << endl;
+    cout << "                       SUDOKU SOLVER!" << endl << endl;
+    cout << " INPUT THE SODUKO DOWN BELOW (0 to indicate an empty cell!)" << endl << endl;
     for (int i = 0; i < N; i++)
     {
         for (int j = 0; j < N; j++)
@@ -94,8 +102,7 @@ int main()
             cin >> GRID[i][j];
         }
     }
-    cout << "\n    SOLUTION" << endl;
-    cout << "   ---------" << endl;
+    cout << "\n               SOLUTION" << endl << endl;
     if (SolveSudoku())
     {
         printGrid();
@@ -104,9 +111,17 @@ int main()
 }
 
 
-
-
-
+/*
+ 3 0 6 5 0 8 4 0 0
+ 5 2 0 0 0 0 0 0 0
+ 0 8 7 0 0 0 0 3 1
+ 0 0 3 0 1 0 0 8 0
+ 9 0 0 8 6 3 0 0 5
+ 0 5 0 0 9 0 6 0 0
+ 1 3 0 0 0 0 2 5 0
+ 0 0 0 0 0 0 0 7 4
+ 0 0 5 2 0 6 3 0 0
+ */
 
 /*
  0 7 0 0 0 0 5 0 0
