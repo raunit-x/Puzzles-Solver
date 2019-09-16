@@ -5,15 +5,18 @@
   <li>The manner in which the input is to be provided has been included in the comments properly!</li> 
   <li>The overview of the algorithm is that it follows the simple layer by layer method</li>
 </ul>
+<img src = 'Screenshot 2019-09-16 at 8.38.46 PM.png' width = 900>
 
 <h4>2. Sudoku Solver </h4>   
 <ul>
   <li>Input an unsolved (solvable or unsolvable) Sudoku board and it will output the correct solution(if it exists).</li>
   <li>The algorithm used is recursion along with backtracking.</li>
 </ul>
+<img src = 'sodukoSolver.cpp/Screenshot 2019-09-16 at 8.46.41 PM.png' width = 900>
 
 <h4>3. Lights Out Game with a solver! </h4>   
 <ul>
   <li>Check out the game at : https://nipung314.github.io/lightsOut/</li>
   <li>The algorithm for the solver is a BFS with a time complexity : O(2 ^ (n * n)) along with the parent map.</li>
 </ul>
+<img src = 'lightsOut.cpp/lightsOut.cpp/Screenshot 2019-09-16 at 8.10.25 PM.png' width = 900>
