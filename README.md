@@ -24,6 +24,8 @@
 <h4>4. Minesweeper! </h4>   
 <ul>
   <li>The game uses DFS algorithm to click on the cell</li> 
+  <li>The user can input the difficulty level and the number of mines would increase accordingly</li> 
+  <li>The user can change the size of the board</li>
   <li>The game can be played easily on the command line</li>
 </ul>
 <img src = 'Screenshot 2019-09-18 at 11.41.34 PM.png' width = 900>
