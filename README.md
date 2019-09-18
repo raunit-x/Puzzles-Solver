@@ -20,3 +20,10 @@
   <li>The algorithm for the solver is a BFS with a time complexity : O(2 ^ (n * n)) along with the parent map.</li>
 </ul>
 <img src = 'lightsOut.cpp/lightsOut.cpp/Screenshot 2019-09-16 at 8.10.25 PM.png' width = 900>
+
+<h4>4. Minesweeper! </h4>   
+<ul>
+  <li>The game uses DFS algorithm to click on the cell</li> 
+  <li>The game can be played easily on the command line</li>
+</ul>
+<img src = 'lightsOut.cpp/lightsOut.cpp/Screenshot 2019-09-16 at 8.10.25 PM.png' width = 900>
