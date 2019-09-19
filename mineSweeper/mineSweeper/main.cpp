@@ -67,9 +67,11 @@ class mineSweeper
             cout << "      |";
             for(int j = 0; j < N; ++j)
             {
-                char c = (covered[i][j]) ? ' ' : board[i][j];
+                char c = board[i][j];
                 if(flag[i][j])
                     c = 'F';
+                else if(covered[i][j])
+                    c = ' ';
                 cout << " " << c << " |";
             }
             cout << endl;
